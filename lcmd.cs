@@ -39,8 +39,9 @@ namespace D1G1T4L3CH0
 				string commandStr = history[ sender.SenderName ];
 				
 				// Execute the command as the sender.
-				if ( sender is Player ) {
-					UserInput.CommandParser.ParsePlayerCommand( sender as Player, "/" + commandStr );
+				Player playerObj = sender as Player;
+				if ( playerObj != null ) {
+					UserInput.CommandParser.ParsePlayerCommand( playerObj, "/" + commandStr );
 				} else if ( sender is ConsoleSender ) {
 					UserInput.CommandParser.ParseConsoleCommand( commandStr );
 				}
