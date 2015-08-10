@@ -28,7 +28,6 @@ namespace D1G1T4L3CH0
             AddCommand("!")
                 .WithAccessLevel(AccessLevel.PLAYER)
                 .WithDescription("Re-types the last command you entered.")
-                //.WithHelpText("<name>")
                 .WithPermissionNode("lcmd.issue")
                 .Calls(IssueLastCommand);
         }
