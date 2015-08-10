@@ -9,4 +9,4 @@ You only need to copy the lcmd.cs file to your Plugins directory and load it wit
 Assuming you've typed at least one other command first, just type `/!` in game or `!` in console to repeat the last command you sent.
 
 ## Contributing
-If you would like to help maintain or addd onto this project, please feel free to make a pull request or fork it. I welcome any help or forks.
+If you would like to help maintain or add onto this project, please feel free to make a pull request or fork it. I welcome any help or forks.
