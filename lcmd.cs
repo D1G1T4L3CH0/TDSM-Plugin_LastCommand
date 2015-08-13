@@ -16,7 +16,7 @@ namespace D1G1T4L3CH0
 		
         public LastCommand()
         {
-            this.TDSMBuild = 4;
+            this.TDSMBuild = 5;
             this.Version = "1.0";
             this.Author = "D1G1T4L3CH0";
             this.Name = "Last Command";
