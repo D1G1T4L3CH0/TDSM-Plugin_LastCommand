@@ -1,7 +1,6 @@
 using TDSM.API;
 using TDSM.API.Command;
 using TDSM.API.Plugin;
-using TDSM.API.Logging;
 using TDSM.API.Callbacks;
 using Terraria;
 using System.Collections.Generic;
